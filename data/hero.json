@@ -1,0 +1,57 @@
+{
+  "asciiName": [
+    "====================",
+    "  Srikar Vechalapu  ",
+    "===================="
+  ],
+  "name": "Srikar Vechalapu",
+  "tagline": "Available for work",
+  "roles": [
+    "Senior Data Analyst",
+    "Data Analyst"
+  ],
+  "bootSequence": [
+    "[OK] Loading kernel modules...",
+    "[OK] Initializing network interfaces...",
+    "[OK] Mounting filesystems...",
+    "[OK] Starting SSH daemon...",
+    "[OK] Loading portfolio data...",
+    "[OK] System ready."
+  ],
+  "techTags": [
+    "SQL",
+    "Python",
+    "R",
+    "Apache Airflow",
+    "AWS Glue",
+    "Informatica"
+  ],
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/srikarvechalapu",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/srikarvechalapu",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:vechalapusaisrikar@gmail.com",
+      "icon": "email"
+    },
+    {
+      "label": "Website",
+      "url": "https://portfolio.srikarvechalapu.com",
+      "icon": "globe"
+    }
+  ],
+  "resumeUrl": "",
+  "stats": {
+    "experience": "2+ years",
+    "projects": 4,
+    "commits": "500+"
+  }
+}

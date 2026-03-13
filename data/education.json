@@ -1,0 +1,20 @@
+{
+  "heading": "$ cat /var/log/education.log",
+  "entries": [
+    {
+      "institution": "University of Memphis",
+      "degree": "Master of Science",
+      "field": "Management Information Systems",
+      "startDate": "Aug 2022",
+      "endDate": "May 2024",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "Google Advanced Data Analytics Professional Certificate",
+    "Google Business Intelligence Professional Certificate",
+    "SQL (Advanced) Certificate",
+    "Python (Basic) Certificate"
+  ]
+}

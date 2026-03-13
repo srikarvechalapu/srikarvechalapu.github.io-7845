@@ -1,0 +1,14 @@
+{
+  "heading": "$ mail -s 'Hello' visitor@portfolio",
+  "subheading": "I'm always interested in hearing about new projects and opportunities. Let's connect.",
+  "email": "vechalapusaisrikar@gmail.com",
+  "phone": "+1 814-609-6098",
+  "location": "Memphis, TN, USA",
+  "availability": "Open to opportunities",
+  "socialLinks": {
+    "github": "https://github.com/srikarvechalapu",
+    "linkedin": "https://www.linkedin.com/in/srikarvechalapu",
+    "website": "https://portfolio.srikarvechalapu.com"
+  },
+  "formAction": ""
+}

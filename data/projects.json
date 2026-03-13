@@ -1,0 +1,117 @@
+{
+  "heading": "$ find ~/projects -type d -maxdepth 1",
+  "projects": [
+    {
+      "name": "cross-platform-marketing-analytics",
+      "description": "End-to-end marketing data pipeline: raw ad-platform CSVs → BigQuery → SQL transformations → Looker Studio dashboard",
+      "technologies": [
+        "HTML",
+        "Python"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "language": "HTML",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/cross-platform-marketing-analytics",
+      "isNew": false
+    },
+    {
+      "name": "srikarvechalapu.github.io",
+      "description": "Professional portfolio for srikarvechalapu",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "Shell",
+        "HTML"
+      ],
+      "stars": 0,
+      "forks": 1,
+      "language": "JavaScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/srikarvechalapu.github.io",
+      "isNew": false
+    },
+    {
+      "name": "retail-data-analytics-project-python-sql-integration",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/retail-data-analytics-project-python-sql-integration",
+      "isNew": false
+    },
+    {
+      "name": "data-pipelines-with-airflow",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "Python"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/data-pipelines-with-airflow",
+      "isNew": false
+    },
+    {
+      "name": "extracting-structured-data-from-pdfs",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/extracting-structured-data-from-pdfs",
+      "isNew": false
+    },
+    {
+      "name": "customer-churn-prediction",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "Python"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/customer-churn-prediction",
+      "isNew": false
+    },
+    {
+      "name": "online-payments-fraud-detection-with-machine-learning",
+      "description": "Interactive application built for continuous learning",
+      "technologies": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/online-payments-fraud-detection-with-machine-learning",
+      "isNew": false
+    },
+    {
+      "name": "f1-data-analysis",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [],
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/f1-data-analysis",
+      "isNew": false
+    }
+  ]
+}

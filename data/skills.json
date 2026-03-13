@@ -1,0 +1,78 @@
+{
+  "heading": "$ ls -la skills/",
+  "categories": [
+    {
+      "name": "languages",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "SQL",
+        "Python",
+        "R"
+      ]
+    },
+    {
+      "name": "frameworks",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Apache Airflow",
+        "AWS Glue",
+        "Informatica",
+        "Talend",
+        "SSIS",
+        "Databricks",
+        "dbt",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "tools",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "QlikView",
+        "Excel",
+        "PostgreSQL",
+        "MySQL",
+        "BigQuery",
+        "Snowflake",
+        "Oracle",
+        "Redshift",
+        "MongoDB",
+        "Hive",
+        "AWS",
+        "Azure",
+        "Git",
+        "GitHub",
+        "JIRA",
+        "Docker",
+        "Confluence"
+      ]
+    },
+    {
+      "name": "technical",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Statistical Analysis",
+        "A/B Testing",
+        "Predictive Modeling",
+        "Data Modeling",
+        "KPI Frameworks",
+        "Forecasting",
+        "Regression",
+        "Classification",
+        "NLP",
+        "Model Evaluation",
+        "Feature Engineering",
+        "Data Mapping",
+        "Data Validation",
+        "Risk Assessment",
+        "Data Integration",
+        "HIPAA Compliance",
+        "Agile/Scrum"
+      ]
+    }
+  ],
+  "githubUsername": "srikarvechalapu"
+}

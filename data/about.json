@@ -1,0 +1,22 @@
+{
+  "heading": "$ cat about.md",
+  "bio": [
+    "Senior Data Analyst with senior-level expertise delivering actionable business intelligence across healthcare, pharma, and technology sectors. Designed and deployed scalable ETL pipelines and interactive dashboards, cutting manual reporting time by 50% and reducing data errors by 25% for over 60 business users.",
+    "Partnered with product and engineering teams to build analytics infrastructure that boosted feature adoption by 15% and enabled self-service analytics. Aiming to apply data-driven insights to accelerate strategic outcomes and operational efficiency."
+  ],
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "2+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "4+"
+    },
+    {
+      "label": "Technologies",
+      "value": "48+"
+    }
+  ],
+  "currentFocus": "Senior Data Analyst"
+}

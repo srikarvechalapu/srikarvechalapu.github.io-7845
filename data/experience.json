@@ -1,0 +1,75 @@
+{
+  "heading": "$ ps aux --sort=start_time",
+  "positions": [
+    {
+      "pid": "1337",
+      "company": "McKesson Corporation",
+      "title": "Senior Data Analyst",
+      "location": "",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "status": "RUNNING",
+      "description": "Engineered 12+ ETL pipelines using AWS Redshift and S3 to streamline healthcare data transfers for customer and vendor reporting, reducing data error rates by 25% and improving processing speed by 40%. Partnered with cross-functional product and engineering teams to build analytics and reporting infrastructure, enabling rapid identification of key metric trends and driving a 15% increase in feature adoption within six months. Developed 8 interactive Power BI and Looker dashboards for customer-facing and internal use, enabling real-time KPI tracking and reducing manual reporting time by 50%. Authored documentation for reporting specs, data flows, and infrastructure changes, increasing dashboard adoption and cutting ad-hoc data requests by 30+ per quarter. Mentored 5+ team members in advanced AWS and Tableau techniques, reducing dependency on external resources for data analysis by 30% and strengthening team's data capabilities.",
+      "achievements": [
+        "Engineered 12+ ETL pipelines using AWS Redshift and S3 to streamline healthcare data transfers for customer and vendor reporting, reducing data error rates by 25% and improving processing speed by 40%.",
+        "Partnered with cross-functional product and engineering teams to build analytics and reporting infrastructure, enabling rapid identification of key metric trends and driving a 15% increase in feature adoption within six months.",
+        "Developed 8 interactive Power BI and Looker dashboards for customer-facing and internal use, enabling real-time KPI tracking and reducing manual reporting time by 50%.",
+        "Authored documentation for reporting specs, data flows, and infrastructure changes, increasing dashboard adoption and cutting ad-hoc data requests by 30+ per quarter.",
+        "Mentored 5+ team members in advanced AWS and Tableau techniques, reducing dependency on external resources for data analysis by 30% and strengthening team's data capabilities."
+      ],
+      "technologies": [
+        "AWS Redshift",
+        "S3",
+        "Power BI",
+        "Looker",
+        "AWS",
+        "Tableau"
+      ]
+    },
+    {
+      "pid": "1237",
+      "company": "Uber Technologies",
+      "title": "Data Analyst",
+      "location": "",
+      "startDate": "May 2021",
+      "endDate": "May 2022",
+      "status": "STOPPED",
+      "description": "Optimized 50+ SQL queries and automated recurring ETL jobs supporting campaign reporting, reducing system latency by 35% and saving 30+ engineering hours per month. Built Tableau dashboards to track operational KPIs, campaign performance, and audience segments, enabling data-driven marketing optimizations that boosted ROI by 18%. Conducted in-depth product analytics on driver and rider engagement trends, surfacing behavioral insights that guided feature enhancements and improved user satisfaction scores by 12%. Collaborated with marketing and external partners to refine data exchange processes and reconcile reporting discrepancies, improving data quality and reporting accuracy across both organizations.",
+      "achievements": [
+        "Optimized 50+ SQL queries and automated recurring ETL jobs supporting campaign reporting, reducing system latency by 35% and saving 30+ engineering hours per month.",
+        "Built Tableau dashboards to track operational KPIs, campaign performance, and audience segments, enabling data-driven marketing optimizations that boosted ROI by 18%.",
+        "Conducted in-depth product analytics on driver and rider engagement trends, surfacing behavioral insights that guided feature enhancements and improved user satisfaction scores by 12%.",
+        "Collaborated with marketing and external partners to refine data exchange processes and reconcile reporting discrepancies, improving data quality and reporting accuracy across both organizations."
+      ],
+      "technologies": [
+        "SQL",
+        "ETL",
+        "Tableau"
+      ]
+    },
+    {
+      "pid": "1137",
+      "company": "Cipla Ltd.",
+      "title": "Data Analyst",
+      "location": "",
+      "startDate": "Nov 2018",
+      "endDate": "Apr 2021",
+      "status": "STOPPED",
+      "description": "Leveraged Python, SQL, and AWS (S3, Redshift) to analyze large-scale clinical datasets in compliance with regulatory requirements, improving research accuracy by 20% and enabling faster decisions across 3 departments. Designed and deployed 10+ Power BI dashboards providing executives with real-time business insights and performance reporting, reducing decision-making cycle time by 35 hours per month. Streamlined scalable ETL workflows and dimensional data models with integrated data validation rules, enabling 60+ business users to access timely and accurate data and boosting operational efficiency. Spearheaded development of a patient tracking system that eliminated 30,000+ annual data entry errors and reduced report generation time by 45 minutes per report.",
+      "achievements": [
+        "Leveraged Python, SQL, and AWS (S3, Redshift) to analyze large-scale clinical datasets in compliance with regulatory requirements, improving research accuracy by 20% and enabling faster decisions across 3 departments.",
+        "Designed and deployed 10+ Power BI dashboards providing executives with real-time business insights and performance reporting, reducing decision-making cycle time by 35 hours per month.",
+        "Streamlined scalable ETL workflows and dimensional data models with integrated data validation rules, enabling 60+ business users to access timely and accurate data and boosting operational efficiency.",
+        "Spearheaded development of a patient tracking system that eliminated 30,000+ annual data entry errors and reduced report generation time by 45 minutes per report."
+      ],
+      "technologies": [
+        "Python",
+        "SQL",
+        "AWS",
+        "S3",
+        "Redshift",
+        "Power BI"
+      ]
+    }
+  ]
+}
