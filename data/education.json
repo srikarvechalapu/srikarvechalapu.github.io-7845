@@ -3,6 +3,7 @@
   "entries": [
     {
       "institution": "University of Memphis",
+      "logo": "https://www.memphis.edu/_resources/images/logos/memphis_primary.png",
       "degree": "Master of Science",
       "field": "Management Information Systems",
       "startDate": "Aug 2022",
@@ -12,9 +13,21 @@
     }
   ],
   "certifications": [
-    "Google Advanced Data Analytics Professional Certificate",
-    "Google Business Intelligence Professional Certificate",
-    "SQL (Advanced) Certificate",
-    "Python (Basic) Certificate"
+    {
+      "name": "Google Advanced Data Analytics Professional Certificate",
+      "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "name": "Google Business Intelligence Professional Certificate",
+      "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "name": "SQL (Advanced) Certificate",
+      "logo": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png"
+    },
+    {
+      "name": "Python (Basic) Certificate",
+      "logo": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png"
+    }
   ]
 }

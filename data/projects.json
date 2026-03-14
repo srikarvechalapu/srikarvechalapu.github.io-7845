@@ -4,6 +4,7 @@
     {
       "name": "cross-platform-marketing-analytics",
       "description": "End-to-end marketing data pipeline: raw ad-platform CSVs → BigQuery → SQL transformations → Looker Studio dashboard",
+      "image": "https://img.icons8.com/3d-fluency/256/combo-chart.png",
       "technologies": [
         "HTML",
         "Python"
@@ -18,6 +19,7 @@
     {
       "name": "srikarvechalapu.github.io",
       "description": "Professional portfolio for srikarvechalapu",
+      "image": "https://img.icons8.com/3d-fluency/256/source-code.png",
       "technologies": [
         "JavaScript",
         "CSS",
@@ -34,6 +36,7 @@
     {
       "name": "retail-data-analytics-project-python-sql-integration",
       "description": "Practice application demonstrating full-stack development skills",
+      "image": "https://img.icons8.com/3d-fluency/256/shopping-cart.png",
       "technologies": [
         "Jupyter Notebook",
         "Python"
@@ -48,6 +51,7 @@
     {
       "name": "data-pipelines-with-airflow",
       "description": "Interactive application built for continuous learning",
+      "image": "https://img.icons8.com/3d-fluency/256/data-configuration.png",
       "technologies": [
         "Python"
       ],
@@ -61,6 +65,7 @@
     {
       "name": "extracting-structured-data-from-pdfs",
       "description": "Practice application demonstrating full-stack development skills",
+      "image": "https://img.icons8.com/3d-fluency/256/pdf.png",
       "technologies": [
         "Python",
         "Jupyter Notebook",
@@ -76,6 +81,7 @@
     {
       "name": "customer-churn-prediction",
       "description": "Interactive application built for continuous learning",
+      "image": "https://img.icons8.com/3d-fluency/256/conference-call.png",
       "technologies": [
         "Python"
       ],
@@ -89,6 +95,7 @@
     {
       "name": "online-payments-fraud-detection-with-machine-learning",
       "description": "Interactive application built for continuous learning",
+      "image": "https://img.icons8.com/3d-fluency/256/shield.png",
       "technologies": [
         "Jupyter Notebook",
         "HTML",
@@ -105,6 +112,7 @@
     {
       "name": "f1-data-analysis",
       "description": "Modern web application demonstrating clean code principles",
+      "image": "https://img.icons8.com/3d-fluency/256/speedometer.png",
       "technologies": [],
       "stars": 0,
       "forks": 0,
