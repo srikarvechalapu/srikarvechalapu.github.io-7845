@@ -4,6 +4,7 @@
     {
       "pid": "1337",
       "company": "McKesson Corporation",
+      "logo": "https://www.mckesson.com/siteassets/images/z-mckesson-logosicons/mck_logo_blue.svg",
       "title": "Senior Data Analyst",
       "location": "",
       "startDate": "Aug 2024",
@@ -29,6 +30,7 @@
     {
       "pid": "1237",
       "company": "Uber Technologies",
+      "logo": "https://companieslogo.com/img/orig/UBER-c9e8b94b.png?t=1720244494",
       "title": "Data Analyst",
       "location": "",
       "startDate": "May 2021",
@@ -50,6 +52,7 @@
     {
       "pid": "1137",
       "company": "Cipla Ltd.",
+      "logo": "https://companieslogo.com/img/orig/CIPLA.NS_BIG-3b7d65fe.png?t=1720244491",
       "title": "Data Analyst",
       "location": "",
       "startDate": "Nov 2018",

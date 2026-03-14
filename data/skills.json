@@ -2,8 +2,8 @@
   "heading": "$ ls -la skills/",
   "categories": [
     {
-      "name": "languages",
-      "permissions": "drwxr-xr-x",
+      "name": "Languages & Scripting",
+      "icon": "https://img.icons8.com/3d-fluency/256/code.png",
       "items": [
         "SQL",
         "Python",
@@ -11,8 +11,8 @@
       ]
     },
     {
-      "name": "frameworks",
-      "permissions": "drwxr-xr-x",
+      "name": "ETL & Data Pipelines",
+      "icon": "https://img.icons8.com/3d-fluency/256/gear.png",
       "items": [
         "Apache Airflow",
         "AWS Glue",
@@ -25,14 +25,20 @@
       ]
     },
     {
-      "name": "tools",
-      "permissions": "drwxr-xr-x",
+      "name": "BI & Visualization",
+      "icon": "https://img.icons8.com/3d-fluency/256/combo-chart.png",
       "items": [
         "Power BI",
         "Tableau",
         "Looker",
         "QlikView",
-        "Excel",
+        "Excel"
+      ]
+    },
+    {
+      "name": "Databases & Warehouses",
+      "icon": "https://img.icons8.com/3d-fluency/256/database.png",
+      "items": [
         "PostgreSQL",
         "MySQL",
         "BigQuery",
@@ -40,37 +46,55 @@
         "Oracle",
         "Redshift",
         "MongoDB",
-        "Hive",
-        "AWS",
-        "Azure",
-        "Git",
-        "GitHub",
-        "JIRA",
-        "Docker",
-        "Confluence"
+        "Hive"
       ]
     },
     {
-      "name": "technical",
-      "permissions": "drwxr-xr-x",
+      "name": "Cloud & DevOps",
+      "icon": "https://img.icons8.com/3d-fluency/256/cloud.png",
+      "items": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Analytics & ML",
+      "icon": "https://img.icons8.com/3d-fluency/256/brain.png",
       "items": [
         "Statistical Analysis",
         "A/B Testing",
         "Predictive Modeling",
-        "Data Modeling",
-        "KPI Frameworks",
-        "Forecasting",
         "Regression",
         "Classification",
         "NLP",
-        "Model Evaluation",
         "Feature Engineering",
+        "Model Evaluation",
+        "Forecasting"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "icon": "https://img.icons8.com/3d-fluency/256/maintenance.png",
+      "items": [
+        "Data Modeling",
         "Data Mapping",
         "Data Validation",
-        "Risk Assessment",
         "Data Integration",
+        "KPI Frameworks"
+      ]
+    },
+    {
+      "name": "Process & Compliance",
+      "icon": "https://img.icons8.com/3d-fluency/256/checked-checkbox.png",
+      "items": [
+        "Agile/Scrum",
         "HIPAA Compliance",
-        "Agile/Scrum"
+        "Risk Assessment",
+        "JIRA",
+        "Confluence"
       ]
     }
   ],

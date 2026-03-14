@@ -20,6 +20,8 @@
     fork: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9"/><path d="M12 12v3"/></svg>',
     mapPin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>',
     phone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+    globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+    website: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
   };
 
   function icon(name) { return ICONS[name] || ''; }
@@ -335,7 +337,11 @@
     if (bio && aboutData.bio) {
       bio.innerHTML = aboutData.bio.map(function (p) {
         return '<p>' + esc(p) + '</p>';
-      }).join('');
+      }).join('') +
+      '<a href="assets/Srikar_Vechalapu_Data_Analyst_Resume.pdf" download class="btn-download-resume">' +
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>' +
+        '<span>Download Resume</span>' +
+      '</a>';
     }
 
     var highlights = $('about-highlights');
@@ -375,8 +381,11 @@
         }).join('') +
         '</div>';
 
+      var logoHTML = pos.logo ? '<img src="' + esc(pos.logo) + '" alt="' + esc(pos.company) + '" class="exp-company-logo" loading="lazy">' : '';
+
       return '<div class="experience-card">' +
         '<div class="exp-header">' +
+          logoHTML +
           '<div class="exp-header-left">' +
             '<span class="exp-company">' + esc(pos.company) + '</span>' +
             (statusLabel ? '<span class="exp-status running">' + statusLabel + '</span>' : '') +
@@ -407,8 +416,14 @@
     var cardGrid = $('skills-card-grid');
     if (cardGrid) {
       cardGrid.innerHTML = (skillsData.categories || []).map(function (cat) {
+        var iconHTML = cat.icon ? '<img src="' + esc(cat.icon) + '" alt="' + esc(cat.name) + '" class="skill-category-icon" loading="lazy">' : '';
+        var count = (cat.items || []).length;
         return '<div class="skill-category-card">' +
-          '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
+          '<div class="skill-category-header">' +
+            iconHTML +
+            '<div class="skill-category-name">' + esc(cat.name) + '</div>' +
+            '<span class="skill-category-count">' + count + '</span>' +
+          '</div>' +
           '<div class="skill-tags">' +
             (cat.items || []).map(function (s) {
               return '<span class="skill-tag">' + esc(s) + '</span>';
@@ -466,8 +481,11 @@
       if (proj.liveUrl) linksHTML += '<a href="' + esc(proj.liveUrl) + '" target="_blank" rel="noopener noreferrer" class="project-link">' + icon('external') + ' Live Demo</a>';
       linksHTML += '</div>';
 
+      var imageHTML = proj.image ? '<div class="project-image-wrap"><img src="' + esc(proj.image) + '" alt="' + esc(proj.name) + '" class="project-image" loading="lazy"></div>' : '';
+
       return '<div class="project-card">' +
         newBadge +
+        imageHTML +
         '<div class="project-name"><span class="lang-dot ' + langClass + '"></span>' + esc(proj.name) + '</div>' +
         '<div class="project-description">' + esc(proj.description) + '</div>' +
         metaHTML + techHTML + linksHTML +
@@ -493,15 +511,22 @@
           '</div>';
       }
 
+      var eduLogoHTML = entry.logo ? '<img src="' + esc(entry.logo) + '" alt="' + esc(entry.institution) + '" class="edu-logo" loading="lazy">' : '';
+
       return '<div class="education-card">' +
-        '<div class="edu-degree">' + esc(entry.degree) + '</div>' +
-        (entry.field ? '<div class="edu-field">' + esc(entry.field) + '</div>' : '') +
-        '<div class="edu-meta">' +
-          '<span class="edu-institution">' + esc(entry.institution) + '</span>' +
-          '<span class="edu-date">' + esc(entry.startDate || '') + (entry.endDate ? ' - ' + esc(entry.endDate) : '') + '</span>' +
-          (entry.gpa ? '<span class="edu-gpa">GPA: ' + esc(entry.gpa) + '</span>' : '') +
+        '<div class="edu-main">' +
+          eduLogoHTML +
+          '<div class="edu-details">' +
+            '<div class="edu-degree">' + esc(entry.degree) + '</div>' +
+            (entry.field ? '<div class="edu-field">' + esc(entry.field) + '</div>' : '') +
+            '<div class="edu-meta">' +
+              '<span class="edu-institution">' + esc(entry.institution) + '</span>' +
+              '<span class="edu-date">' + esc(entry.startDate || '') + (entry.endDate ? ' - ' + esc(entry.endDate) : '') + '</span>' +
+              (entry.gpa ? '<span class="edu-gpa">GPA: ' + esc(entry.gpa) + '</span>' : '') +
+            '</div>' +
+            honorsHTML +
+          '</div>' +
         '</div>' +
-        honorsHTML +
       '</div>';
     }).join('');
 
@@ -509,7 +534,11 @@
       html += '<div class="certifications-section">' +
         '<div class="cert-heading">// certifications</div>' +
         '<ul class="cert-list">' +
-        eduData.certifications.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') +
+        eduData.certifications.map(function (c) {
+          var certName = typeof c === 'string' ? c : c.name;
+          var certLogo = typeof c === 'object' && c.logo ? '<img src="' + esc(c.logo) + '" alt="" class="cert-logo" loading="lazy">' : '';
+          return '<li>' + certLogo + '<span>' + esc(certName) + '</span></li>';
+        }).join('') +
         '</ul></div>';
     }
 
