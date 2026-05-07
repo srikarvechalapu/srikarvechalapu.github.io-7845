@@ -7,30 +7,32 @@
       "image": "https://img.icons8.com/3d-fluency/256/combo-chart.png",
       "technologies": [
         "HTML",
-        "Python"
+        "SQL",
+        "Python",
+        "Looker"
       ],
       "stars": 1,
       "forks": 0,
-      "language": "HTML",
+      "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/srikarvechalapu/cross-platform-marketing-analytics",
       "isNew": false
     },
     {
-      "name": "srikarvechalapu.github.io",
-      "description": "Professional portfolio for srikarvechalapu",
+      "name": "realtime-data-streaming",
+      "description": "A serverless data ingestion and processing platform built on AWS, handling 100K+ events per second from IoT devices and applications with intelligent routing to S3, Kinesis, and Redshift.",
       "image": "https://img.icons8.com/3d-fluency/256/source-code.png",
       "technologies": [
-        "JavaScript",
-        "CSS",
-        "Shell",
-        "HTML"
+        "AWS",
+        "Python",
+        "Airflow",
+        "Docker"
       ],
       "stars": 0,
       "forks": 1,
-      "language": "JavaScript",
+      "language": "Python",
       "liveUrl": "",
-      "githubUrl": "https://github.com/srikarvechalapu/srikarvechalapu.github.io",
+      "githubUrl": "https://github.com/srikarvechalapu/realtime-data-streaming",
       "isNew": false
     },
     {
@@ -39,11 +41,12 @@
       "image": "https://img.icons8.com/3d-fluency/256/shopping-cart.png",
       "technologies": [
         "Jupyter Notebook",
-        "Python"
+        "Python",
+        "SQL"
       ],
       "stars": 0,
       "forks": 0,
-      "language": "Jupyter Notebook",
+      "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/srikarvechalapu/retail-data-analytics-project-python-sql-integration",
       "isNew": false
@@ -53,7 +56,8 @@
       "description": "Interactive application built for continuous learning",
       "image": "https://img.icons8.com/3d-fluency/256/data-configuration.png",
       "technologies": [
-        "Python"
+        "Python",
+        "Airflow"
       ],
       "stars": 0,
       "forks": 0,
