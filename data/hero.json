@@ -7,8 +7,9 @@
   "name": "Srikar Vechalapu",
   "tagline": "Available for work",
   "roles": [
-    "Senior Data Analyst",
-    "Data Analyst"
+    "Data Engineer",
+    "Data Platform Engineer",
+    "Analytics Engineer"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -19,12 +20,12 @@
     "[OK] System ready."
   ],
   "techTags": [
-    "SQL",
     "Python",
-    "R",
-    "Apache Airflow",
-    "AWS Glue",
-    "Informatica"
+    "SQL",
+    "PySpark",
+    "Kafka",
+    "Airflow",
+    "Redshift"
   ],
   "socialLinks": [
     {
@@ -39,7 +40,7 @@
     },
     {
       "label": "Email",
-      "url": "mailto:vechalapusaisrikar@gmail.com",
+      "url": "mailto:vsrikar2025@gmail.com",
       "icon": "email"
     },
     {
@@ -50,8 +51,8 @@
   ],
   "resumeUrl": "",
   "stats": {
-    "experience": "2+ years",
-    "projects": 4,
+    "experience": "5+ years",
+    "projects": 9,
     "commits": "500+"
   }
 }
