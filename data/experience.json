@@ -5,73 +5,79 @@
       "pid": "1337",
       "company": "McKesson Corporation",
       "logo": "https://www.mckesson.com/siteassets/images/z-mckesson-logosicons/mck_logo_blue.svg",
-      "title": "Senior Data Analyst",
+      "title": "Data Engineer",
       "location": "",
       "startDate": "Aug 2024",
       "endDate": "Present",
       "status": "RUNNING",
-      "description": "Engineered 12+ ETL pipelines using AWS Redshift and S3 to streamline healthcare data transfers for customer and vendor reporting, reducing data error rates by 25% and improving processing speed by 40%. Partnered with cross-functional product and engineering teams to build analytics and reporting infrastructure, enabling rapid identification of key metric trends and driving a 15% increase in feature adoption within six months. Developed 8 interactive Power BI and Looker dashboards for customer-facing and internal use, enabling real-time KPI tracking and reducing manual reporting time by 50%. Authored documentation for reporting specs, data flows, and infrastructure changes, increasing dashboard adoption and cutting ad-hoc data requests by 30+ per quarter. Mentored 5+ team members in advanced AWS and Tableau techniques, reducing dependency on external resources for data analysis by 30% and strengthening team's data capabilities.",
+      "description": "Own the S3 data lake behind supply-chain analytics, processing high-volume fact data in Databricks and PySpark with partitioning, schema validation, and incremental loads before publishing curated Parquet for Athena and downstream reporting. Compacted small files into 128 MB Parquet and applied partition pruning to cut unnecessary S3 scans and speed up queries. Operate the near-real-time ingestion path for order, pricing, and inventory events, running Kafka into Spark Structured Streaming into S3 and Redshift. Handles 12M+ events per day at a 6K per second peak, with registry-backed schema validation, checkpointed exactly-once writes, dead-letter replay, and a 15-minute freshness SLA alarmed in CloudWatch. Migrated 50+ Informatica workflows to Airflow, breaking monolithic mappings into 180+ restartable tasks with explicit dependencies and SLA sensors. Removed a daily rerun queue averaging 6 manual fixes per week, and analysts now run 24-month backfills through parameterized DAGs. Rebuilt the pricing and supply-chain marts in Redshift with conformed product, customer, and location dimensions, SCD Type 2 on contract pricing, and CDC watermarked incremental loads against a 5B-row order-line fact. Retired 9 overlapping team-owned extracts in favor of one certified model. Cut P95 runtime on the top-20 reports from 38 to 5 minutes by fixing distribution and sort keys on the two largest fact tables, replacing repeated join patterns with materialized views, and eliminating a full scan from a non-sargable date filter.",
       "achievements": [
-        "Engineered 12+ ETL pipelines using AWS Redshift and S3 to streamline healthcare data transfers for customer and vendor reporting, reducing data error rates by 25% and improving processing speed by 40%.",
-        "Partnered with cross-functional product and engineering teams to build analytics and reporting infrastructure, enabling rapid identification of key metric trends and driving a 15% increase in feature adoption within six months.",
-        "Developed 8 interactive Power BI and Looker dashboards for customer-facing and internal use, enabling real-time KPI tracking and reducing manual reporting time by 50%.",
-        "Authored documentation for reporting specs, data flows, and infrastructure changes, increasing dashboard adoption and cutting ad-hoc data requests by 30+ per quarter.",
-        "Mentored 5+ team members in advanced AWS and Tableau techniques, reducing dependency on external resources for data analysis by 30% and strengthening team's data capabilities."
+        "Own the S3 data lake behind supply-chain analytics, processing high-volume fact data in Databricks and PySpark with partitioning, schema validation, and incremental loads before publishing curated Parquet for Athena and downstream reporting. Compacted small files into 128 MB Parquet and applied partition pruning to cut unnecessary S3 scans and speed up queries.",
+        "Operate the near-real-time ingestion path for order, pricing, and inventory events, running Kafka into Spark Structured Streaming into S3 and Redshift. Handles 12M+ events per day at a 6K per second peak, with registry-backed schema validation, checkpointed exactly-once writes, dead-letter replay, and a 15-minute freshness SLA alarmed in CloudWatch.",
+        "Migrated 50+ Informatica workflows to Airflow, breaking monolithic mappings into 180+ restartable tasks with explicit dependencies and SLA sensors. Removed a daily rerun queue averaging 6 manual fixes per week, and analysts now run 24-month backfills through parameterized DAGs.",
+        "Rebuilt the pricing and supply-chain marts in Redshift with conformed product, customer, and location dimensions, SCD Type 2 on contract pricing, and CDC watermarked incremental loads against a 5B-row order-line fact. Retired 9 overlapping team-owned extracts in favor of one certified model.",
+        "Cut P95 runtime on the top-20 reports from 38 to 5 minutes by fixing distribution and sort keys on the two largest fact tables, replacing repeated join patterns with materialized views, and eliminating a full scan from a non-sargable date filter."
       ],
       "technologies": [
-        "AWS Redshift",
-        "S3",
-        "Power BI",
-        "Looker",
-        "AWS",
-        "Tableau"
+        "AWS S3",
+        "Redshift",
+        "Databricks",
+        "PySpark",
+        "Kafka",
+        "Spark Structured Streaming",
+        "Airflow",
+        "Athena",
+        "CloudWatch"
       ]
     },
     {
       "pid": "1237",
       "company": "Uber Technologies",
       "logo": "https://companieslogo.com/img/orig/UBER-c9e8b94b.png?t=1720244494",
-      "title": "Data Analyst",
+      "title": "Data Engineer",
       "location": "",
       "startDate": "May 2021",
       "endDate": "May 2022",
       "status": "STOPPED",
-      "description": "Optimized 50+ SQL queries and automated recurring ETL jobs supporting campaign reporting, reducing system latency by 35% and saving 30+ engineering hours per month. Built Tableau dashboards to track operational KPIs, campaign performance, and audience segments, enabling data-driven marketing optimizations that boosted ROI by 18%. Conducted in-depth product analytics on driver and rider engagement trends, surfacing behavioral insights that guided feature enhancements and improved user satisfaction scores by 12%. Collaborated with marketing and external partners to refine data exchange processes and reconcile reporting discrepancies, improving data quality and reporting accuracy across both organizations.",
+      "description": "Developed PySpark pipelines processing 3M+ daily trip events for forecasting and pricing analytics, using watermarked windows for late-arriving events and partition-overwrite writes across date and city partitions on S3. Onboarded 15+ source systems into the S3 data lake and Redshift through AWS Glue, standardizing a landing-to-curated layout with partition-aware crawlers to keep downstream scan costs predictable. Implemented 40+ dbt models with tests and documentation for marketplace demand, driver supply, and retention datasets, replacing duplicated ad-hoc SQL across marketing, sales, and operations with tested, lineage-tracked models. Converted recurring one-off analyst SQL requests into governed Tableau data sources, removing roughly 10 hours per week of manual pull work from the team.",
       "achievements": [
-        "Optimized 50+ SQL queries and automated recurring ETL jobs supporting campaign reporting, reducing system latency by 35% and saving 30+ engineering hours per month.",
-        "Built Tableau dashboards to track operational KPIs, campaign performance, and audience segments, enabling data-driven marketing optimizations that boosted ROI by 18%.",
-        "Conducted in-depth product analytics on driver and rider engagement trends, surfacing behavioral insights that guided feature enhancements and improved user satisfaction scores by 12%.",
-        "Collaborated with marketing and external partners to refine data exchange processes and reconcile reporting discrepancies, improving data quality and reporting accuracy across both organizations."
+        "Developed PySpark pipelines processing 3M+ daily trip events for forecasting and pricing analytics, using watermarked windows for late-arriving events and partition-overwrite writes across date and city partitions on S3.",
+        "Onboarded 15+ source systems into the S3 data lake and Redshift through AWS Glue, standardizing a landing-to-curated layout with partition-aware crawlers to keep downstream scan costs predictable.",
+        "Implemented 40+ dbt models with tests and documentation for marketplace demand, driver supply, and retention datasets, replacing duplicated ad-hoc SQL across marketing, sales, and operations with tested, lineage-tracked models.",
+        "Converted recurring one-off analyst SQL requests into governed Tableau data sources, removing roughly 10 hours per week of manual pull work from the team."
       ],
       "technologies": [
-        "SQL",
-        "ETL",
-        "Tableau"
+        "PySpark",
+        "AWS Glue",
+        "S3",
+        "Redshift",
+        "dbt",
+        "Tableau",
+        "SQL"
       ]
     },
     {
       "pid": "1137",
       "company": "Cipla Ltd.",
       "logo": "https://companieslogo.com/img/orig/CIPLA.NS_BIG-3b7d65fe.png?t=1720244491",
-      "title": "Data Analyst",
+      "title": "Data Engineer",
       "location": "",
       "startDate": "Nov 2018",
       "endDate": "Apr 2021",
       "status": "STOPPED",
-      "description": "Leveraged Python, SQL, and AWS (S3, Redshift) to analyze large-scale clinical datasets in compliance with regulatory requirements, improving research accuracy by 20% and enabling faster decisions across 3 departments. Designed and deployed 10+ Power BI dashboards providing executives with real-time business insights and performance reporting, reducing decision-making cycle time by 35 hours per month. Streamlined scalable ETL workflows and dimensional data models with integrated data validation rules, enabling 60+ business users to access timely and accurate data and boosting operational efficiency. Spearheaded development of a patient tracking system that eliminated 30,000+ annual data entry errors and reduced report generation time by 45 minutes per report.",
+      "description": "Integrated SAP, Salesforce, and legacy Oracle systems into a central warehouse using Talend, serving supply-chain and operational reporting for 8 departments across 120+ mapped source tables. Designed dimensional models for manufacturing, inventory, and sales reporting, then replaced nightly full refreshes with CDC-driven incremental loads. Batch window dropped from 7 hours to 90 minutes, clearing reports before regional business open.",
       "achievements": [
-        "Leveraged Python, SQL, and AWS (S3, Redshift) to analyze large-scale clinical datasets in compliance with regulatory requirements, improving research accuracy by 20% and enabling faster decisions across 3 departments.",
-        "Designed and deployed 10+ Power BI dashboards providing executives with real-time business insights and performance reporting, reducing decision-making cycle time by 35 hours per month.",
-        "Streamlined scalable ETL workflows and dimensional data models with integrated data validation rules, enabling 60+ business users to access timely and accurate data and boosting operational efficiency.",
-        "Spearheaded development of a patient tracking system that eliminated 30,000+ annual data entry errors and reduced report generation time by 45 minutes per report."
+        "Integrated SAP, Salesforce, and legacy Oracle systems into a central warehouse using Talend, serving supply-chain and operational reporting for 8 departments across 120+ mapped source tables.",
+        "Designed dimensional models for manufacturing, inventory, and sales reporting, then replaced nightly full refreshes with CDC-driven incremental loads. Batch window dropped from 7 hours to 90 minutes, clearing reports before regional business open."
       ],
       "technologies": [
-        "Python",
+        "Talend",
+        "Oracle",
+        "SAP",
+        "Salesforce",
         "SQL",
-        "AWS",
-        "S3",
-        "Redshift",
-        "Power BI"
+        "Dimensional Modeling",
+        "CDC"
       ]
     }
   ]
