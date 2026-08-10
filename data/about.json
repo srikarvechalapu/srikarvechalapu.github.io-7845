@@ -2,8 +2,8 @@
   "heading": "$ cat about.md",
   "avatarUrl": "assets/headshot.jpg",
   "bio": [
-    "Senior Data Analyst with senior-level expertise delivering actionable business intelligence across healthcare, pharma, and technology sectors. Designed and deployed scalable ETL pipelines and interactive dashboards, cutting manual reporting time by 50% and reducing data errors by 25% for over 60 business users.",
-    "Partnered with product and engineering teams to build analytics infrastructure that boosted feature adoption by 15% and enabled self-service analytics. Aiming to apply data-driven insights to accelerate strategic outcomes and operational efficiency."
+    "Data Engineer with 5+ years building data lake infrastructure, streaming pipelines, and dimensional warehouse models on AWS. I own a layered S3 data lake and the streaming path behind it, moving 12M+ supply-chain events per day into a multi-billion-row Redshift warehouse with registry-backed schema validation, checkpointed exactly-once writes, and a 15-minute freshness SLA.",
+    "Migrated a 50-workflow Informatica estate to Airflow as 180+ restartable tasks, rebuilt pricing and supply-chain marts with conformed dimensions, SCD Type 2, and CDC incremental loads, and added data quality checks gating 200+ production tables. Cut P95 runtime on the top-20 reports from 38 minutes to 5."
   ],
   "highlights": [
     {
@@ -12,12 +12,12 @@
     },
     {
       "label": "Projects Completed",
-      "value": "4+"
+      "value": "9+"
     },
     {
       "label": "Technologies",
-      "value": "48+"
+      "value": "40+"
     }
   ],
-  "currentFocus": "Senior Data Analyst"
+  "currentFocus": "Data Engineer"
 }
