@@ -3,13 +3,13 @@
   "projects": [
     {
       "name": "cross-platform-marketing-analytics",
-      "description": "End-to-end marketing data pipeline: raw ad-platform CSVs → BigQuery → SQL transformations → Looker Studio dashboard",
+      "description": "Python/SQL pipeline standardizing Facebook, Google, and TikTok ad CSVs into one BigQuery model with 13 data-quality checks and 3 analytics views for self-service Looker Studio reporting.",
       "image": "https://img.icons8.com/3d-fluency/256/combo-chart.png",
       "technologies": [
-        "HTML",
-        "SQL",
         "Python",
-        "Looker"
+        "SQL",
+        "BigQuery",
+        "Looker Studio"
       ],
       "stars": 1,
       "forks": 0,
@@ -19,12 +19,32 @@
       "isNew": false
     },
     {
+      "name": "data-lake-infrastructure",
+      "description": "Layered S3 data lake (landing, curated, published) with partitioned Parquet, Glue Catalog crawlers, Athena access patterns, and data quality and governance checks.",
+      "image": "https://img.icons8.com/3d-fluency/256/database.png",
+      "technologies": [
+        "AWS S3",
+        "Glue",
+        "Athena",
+        "Python",
+        "Terraform"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/srikarvechalapu/data-lake-infrastructure",
+      "isNew": true
+    },
+    {
       "name": "realtime-data-streaming",
-      "description": "A serverless data ingestion and processing platform built on AWS, handling 100K+ events per second from IoT devices and applications with intelligent routing to S3, Kinesis, and Redshift.",
+      "description": "Streaming ingestion platform on AWS: Kafka/Kinesis events validated against a schema registry, processed with Spark Structured Streaming, and landed in S3 and Redshift with checkpointing and dead-letter replay.",
       "image": "https://img.icons8.com/3d-fluency/256/source-code.png",
       "technologies": [
         "AWS",
         "Python",
+        "Spark",
+        "Kafka",
         "Airflow",
         "Docker"
       ],
@@ -37,12 +57,13 @@
     },
     {
       "name": "retail-data-analytics-project-python-sql-integration",
-      "description": "Practice application demonstrating full-stack development skills",
+      "description": "End-to-end retail ETL and analytics workflow: Python/SQL ingestion, data cleaning, and exploratory analysis over transactional sales data.",
       "image": "https://img.icons8.com/3d-fluency/256/shopping-cart.png",
       "technologies": [
-        "Jupyter Notebook",
         "Python",
-        "SQL"
+        "SQL",
+        "Pandas",
+        "Jupyter Notebook"
       ],
       "stars": 0,
       "forks": 0,
@@ -53,11 +74,14 @@
     },
     {
       "name": "data-pipelines-with-airflow",
-      "description": "Interactive application built for continuous learning",
+      "description": "Airflow ETL pipeline for S3-to-Redshift warehouse loads using custom StageToRedshift, LoadFact, LoadDimension, and DataQuality operators, with templated backfills and SQL transforms.",
       "image": "https://img.icons8.com/3d-fluency/256/data-configuration.png",
       "technologies": [
         "Python",
-        "Airflow"
+        "Airflow",
+        "SQL",
+        "Redshift",
+        "S3"
       ],
       "stars": 0,
       "forks": 0,
@@ -68,12 +92,12 @@
     },
     {
       "name": "extracting-structured-data-from-pdfs",
-      "description": "Practice application demonstrating full-stack development skills",
+      "description": "Parsing pipeline that pulls structured tables and fields out of PDF documents into analysis-ready datasets, containerized for repeatable runs.",
       "image": "https://img.icons8.com/3d-fluency/256/pdf.png",
       "technologies": [
         "Python",
         "Jupyter Notebook",
-        "Dockerfile"
+        "Docker"
       ],
       "stars": 0,
       "forks": 0,
@@ -84,10 +108,12 @@
     },
     {
       "name": "customer-churn-prediction",
-      "description": "Interactive application built for continuous learning",
+      "description": "Churn model over 50K+ customer records with feature engineering and tuned Random Forest and XGBoost classifiers, scored for retention targeting.",
       "image": "https://img.icons8.com/3d-fluency/256/conference-call.png",
       "technologies": [
-        "Python"
+        "Python",
+        "Scikit-learn",
+        "Pandas"
       ],
       "stars": 0,
       "forks": 0,
@@ -98,13 +124,12 @@
     },
     {
       "name": "online-payments-fraud-detection-with-machine-learning",
-      "description": "Interactive application built for continuous learning",
+      "description": "Fraud classification on online payment transactions using decision-tree models with class-imbalance handling and precision/recall evaluation.",
       "image": "https://img.icons8.com/3d-fluency/256/shield.png",
       "technologies": [
-        "Jupyter Notebook",
-        "HTML",
         "Python",
-        "CSS"
+        "Scikit-learn",
+        "Jupyter Notebook"
       ],
       "stars": 0,
       "forks": 0,
@@ -115,9 +140,13 @@
     },
     {
       "name": "f1-data-analysis",
-      "description": "Modern web application demonstrating clean code principles",
+      "description": "SQL and Python analysis of Formula 1 racing data from 1953 to 2020, covering 1,000+ Grand Prix events with driver, constructor, and circuit trends.",
       "image": "https://img.icons8.com/3d-fluency/256/speedometer.png",
-      "technologies": [],
+      "technologies": [
+        "SQL",
+        "Python",
+        "Tableau"
+      ],
       "stars": 0,
       "forks": 0,
       "language": "",
