@@ -5,96 +5,70 @@
       "name": "Languages & Scripting",
       "icon": "https://img.icons8.com/3d-fluency/256/code.png",
       "items": [
-        "SQL",
         "Python",
-        "R"
+        "SQL",
+        "PySpark",
+        "Bash"
       ]
     },
     {
-      "name": "ETL & Data Pipelines",
+      "name": "Data Platforms & Streaming",
       "icon": "https://img.icons8.com/3d-fluency/256/gear.png",
       "items": [
+        "Apache Spark",
+        "Spark Structured Streaming",
+        "Kafka",
         "Apache Airflow",
-        "AWS Glue",
-        "Informatica",
-        "Talend",
-        "SSIS",
-        "Databricks",
         "dbt",
-        "Scikit-learn"
+        "Databricks"
       ]
     },
     {
-      "name": "BI & Visualization",
-      "icon": "https://img.icons8.com/3d-fluency/256/combo-chart.png",
+      "name": "AWS",
+      "icon": "https://img.icons8.com/3d-fluency/256/cloud.png",
       "items": [
-        "Power BI",
-        "Tableau",
-        "Looker",
-        "QlikView",
-        "Excel"
+        "S3",
+        "Redshift",
+        "Glue",
+        "Athena",
+        "Step Functions",
+        "EventBridge",
+        "CloudWatch",
+        "IAM"
       ]
     },
     {
-      "name": "Databases & Warehouses",
+      "name": "Data Warehousing",
+      "icon": "https://img.icons8.com/3d-fluency/256/maintenance.png",
+      "items": [
+        "Dimensional Modeling",
+        "ELT",
+        "CDC",
+        "SCD Type 2",
+        "Partitioning",
+        "Incremental Loads",
+        "Data Quality Frameworks"
+      ]
+    },
+    {
+      "name": "Databases",
       "icon": "https://img.icons8.com/3d-fluency/256/database.png",
       "items": [
         "PostgreSQL",
         "MySQL",
-        "BigQuery",
-        "Snowflake",
         "Oracle",
-        "Redshift",
-        "MongoDB",
-        "Hive"
+        "Snowflake",
+        "DynamoDB"
       ]
     },
     {
-      "name": "Cloud & DevOps",
-      "icon": "https://img.icons8.com/3d-fluency/256/cloud.png",
-      "items": [
-        "AWS",
-        "Azure",
-        "Docker",
-        "Git",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Analytics & ML",
-      "icon": "https://img.icons8.com/3d-fluency/256/brain.png",
-      "items": [
-        "Statistical Analysis",
-        "A/B Testing",
-        "Predictive Modeling",
-        "Regression",
-        "Classification",
-        "NLP",
-        "Feature Engineering",
-        "Model Evaluation",
-        "Forecasting"
-      ]
-    },
-    {
-      "name": "Data Engineering",
-      "icon": "https://img.icons8.com/3d-fluency/256/maintenance.png",
-      "items": [
-        "Data Modeling",
-        "Data Mapping",
-        "Data Validation",
-        "Data Integration",
-        "KPI Frameworks"
-      ]
-    },
-    {
-      "name": "Process & Compliance",
+      "name": "DevOps & Reporting",
       "icon": "https://img.icons8.com/3d-fluency/256/checked-checkbox.png",
       "items": [
-        "Agile/Scrum",
-        "HIPAA Compliance",
-        "Risk Assessment",
-        "JIRA",
-        "Confluence"
+        "GitHub",
+        "CI/CD",
+        "Docker",
+        "Tableau"
       ]
     }
   ],
